@@ -1,5 +1,6 @@
 
-import { Telegram } from "lucide-react";
+
+import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -44,7 +45,7 @@ const Hero = () => {
                   {/* Telegram mockup */}
                   <div className="bg-white rounded-lg shadow-md p-3 flex-1">
                     <div className="flex items-center bg-[#0088cc] text-white rounded-t-lg p-2">
-                      <Telegram className="h-5 w-5" />
+                      <MessageCircle className="h-5 w-5" />
                       <span className="ml-2 text-sm font-medium">Telegram</span>
                     </div>
                     <div className="p-2 space-y-2">
@@ -88,4 +89,5 @@ const Hero = () => {
       </div>
     </section>;
 };
+
 export default Hero;
