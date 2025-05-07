@@ -8,8 +8,8 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="lg:w-1/2 space-y-6 animate-fade-in">
             <img 
-              src="/lovable-uploads/8313ad36-00f5-4896-8bc3-6274d3f08c5b.png" 
-              alt="Aurallon Logo" 
+              src="/lovable-uploads/8afbe3a7-8b1c-4210-923b-881ed10164b5.png" 
+              alt="Aurallon Automations Logo" 
               className="h-14 md:h-16"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-aurallon-blue leading-tight">
