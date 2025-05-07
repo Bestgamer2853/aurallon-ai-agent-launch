@@ -4,7 +4,8 @@ import {
   Database, 
   Calendar, 
   Settings, 
-  FileText 
+  FileText,
+  Cloud 
 } from "lucide-react";
 
 const Features = () => {
@@ -23,6 +24,11 @@ const Features = () => {
       icon: <Calendar className="h-8 w-8 text-aurallon-blue" />,
       title: "Appointment Scheduling",
       description: "One-click call booking that automatically converts timezones to IST for your convenience."
+    },
+    {
+      icon: <Cloud className="h-8 w-8 text-aurallon-blue" />,
+      title: "Cloud Deployment",
+      description: "Fully managed cloud infrastructure—no local setup, maintenance, or technical expertise required."
     },
     {
       icon: <Database className="h-8 w-8 text-aurallon-blue" />,
