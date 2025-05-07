@@ -1,5 +1,7 @@
 
+import { Telegram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 const Hero = () => {
   return <section className="py-20 px-4 md:px-8 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -42,9 +44,7 @@ const Hero = () => {
                   {/* Telegram mockup */}
                   <div className="bg-white rounded-lg shadow-md p-3 flex-1">
                     <div className="flex items-center bg-[#0088cc] text-white rounded-t-lg p-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.5 6.696-.5 6.696l-.822 2.575c-.122.122-.178.25-.527.25-.232 0-.336-.12-.487-.23-.238-.18-1.27-.96-1.84-1.385-.223-.333 0-.51.223-.51 0-.51 1.264-1.238 1.897-1.238.39 0-.364.67-.448.753-.243.242-.91.96-1.588 1.73-.122.14-.142.121-.142-.11C12 11 15 9 15 9l.244-.058s.121-.098.169-.084c.05.015.144.085.144.085z" />
-                      </svg>
+                      <Telegram className="h-5 w-5" />
                       <span className="ml-2 text-sm font-medium">Telegram</span>
                     </div>
                     <div className="p-2 space-y-2">
