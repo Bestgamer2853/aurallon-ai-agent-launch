@@ -1,10 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return <section className="py-20 px-4 md:px-8 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="lg:w-1/2 space-y-6 animate-fade-in">
-            <img src="/lovable-uploads/8afbe3a7-8b1c-4210-923b-881ed10164b5.png" alt="Aurallon Automations Logo" className="h-14 md:h-16 object-contain" />
+            <img src="/lovable-uploads/7e16557b-7e9f-4f68-965b-fe513f3e0f6d.png" alt="Aurallon Automations Logo" className="h-14 md:h-16 object-contain" />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-aurallon-blue leading-tight">
               Never Miss a Lead: AI Chat on Telegram, WhatsApp & Slack
             </h1>
